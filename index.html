@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+        <h1 class="empty">Weather Forecast</h1>
+        <div class="search">
+        <input id="input" type="text" placeholder= "Type a location"><br>
+        <div class="icon">
+        <button id="btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+    </div>
+        </div>
+       
+        <div class="climate">
+            <h1 id = "city">City name</h1>
+            <div id="date"></div>
+            <div id="day"></div>
+            <img src="" class="wicon">
+            <p id="weathercond">Weather Condition</p><br>
+            <div class="card2">
+            <div id="temperature">25 C</div><br>
+            <div class="detail">
+                <div id="item">
+                <img class="humid" src="./image/humidity.png">
+                    <p id="humidity"></p>
+            </div>
+            <div class="item">
+                <img src="./image/wind speed.png">
+                    <p id="speed"></p>
+         
+            </div>
+            <div class="item1">
+                <img src="./image/pressure.png">
+                    <p id="pressuree"></p>
+            </div>
+            <div class="item1">
+                <img src="./image/rainfall.png">
+            <div id="raiNFall"></div>
+            
+        </div>
+            
+        </div>
+        </div>
+        </div>
+</div>
+<script src="weather.js"></script>
+</body>
+</html>
